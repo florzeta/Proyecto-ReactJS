@@ -1,0 +1,24 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Poppins:wght@200&display=swap');
+/* font-family: 'Asap', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.App {
+  text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+
+}
+
+:root{
+    --mainColor: #F9F9F9;
+    --mainColorClaro: #F4DFD0;
+    --mainColorOscuro: #DAD0C2;
+}
+
