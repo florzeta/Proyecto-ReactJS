@@ -1,8 +1,10 @@
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-   <h1>Bienvenido!</h1>
+    <div>
+      <h1>Bienvenidos!</h1>
+    </div>
   );
 }
 
