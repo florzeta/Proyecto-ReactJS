@@ -4,3 +4,19 @@
   margin: 3px;
   font-size: 40px;
 }
+
+.cantCarrito {
+  position:  relative;
+  left: 13%;
+}
+
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+}
+
+.cardProducto {
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}

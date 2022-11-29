@@ -10,5 +10,5 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
+//strict mode ejecuta dos veces, una es de prueba
 

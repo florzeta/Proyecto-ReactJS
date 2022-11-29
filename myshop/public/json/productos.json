@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "idCategoria":1,
+        "nombre":"Lentes Petunia",
+        "Modelo":"marco negro, vidrio: marron",
+        "precio": 3500,
+        "stock":40,
+        "img": "https://ibb.co/qBWJrVR"
+
+    },
+    {
+        "id":2,
+        "idCategoria":2,
+        "nombre":"",
+        "Modelo":"",
+        "precio":2400,
+        "stock":30,
+        "img":""
+
+    },
+    {
+        "id":3,
+        "idCategoria":3,
+        "nombre":"",
+        "Modelo":"",
+        "precio":3000,
+        "stock":15,
+        "img":""
+
+    },
+    {
+        "id":4,
+        "idCategoria":4,
+        "nombre":"",
+        "Modelo":"",
+        "precio":2800,
+        "stock":20,
+        "img":""
+
+    }
+
+]
