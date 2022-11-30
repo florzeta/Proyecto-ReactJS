@@ -3,11 +3,11 @@ import Item from "../Item/Item";
 //modifica array de datos
 
 
-const ItemList = ({productList}) => {
+const ItemList = ({productsList}) => {
     return (
-        <div>
-            {productList.map(product => <Item key={product.id} producto={product}/>)}
-        </div>
+        <>
+            {productsList.map(producto => <Item key={producto.id} producto= {producto}/>)}
+        </>
     );
 }
 

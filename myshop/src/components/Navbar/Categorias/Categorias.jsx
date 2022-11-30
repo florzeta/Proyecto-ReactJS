@@ -1,21 +1,22 @@
-import React from 'react';
 
 const Categorias = () => {
     return (
+        
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-                <a className="nav-link" href="#">Inicio</a>
+                <button className="nav-link" >Inicio</button>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Lentes</a>
+                <button className="nav-link" >Lentes</button>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Carteras</a>
+                <button className="nav-link" >Bolsos</button>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Accesorios</a>
+                <button className="nav-link" >Accesorios</button>
             </li>
       </ul>
+      
     );
 }
 
