@@ -2,41 +2,41 @@
     {
         "id": 1,
         "idCategoria": 1,
-        "nombre": "Lentes Petunia",
-        "Modelo": "marco negro, vidrio: marron",
+        "nombre": "Lentes Dua",
+        "modelo": "marco negro, vidrio: marron",
         "precio": 3500,
         "stock": 40,
-        "img": "https://ibb.co/qBWJrVR"
+        "img": "lentes-dua.jpg"
 
     },
     {
         "id": 2,
         "idCategoria": 2,
-        "nombre": "",
-        "Modelo": "",
+        "nombre": "Morral Fred",
+        "modelo": "Mochila Marron de cuerina",
         "precio": 2400,
         "stock": 30,
-        "img": ""
+        "img": "morral-marron.jpg"
 
     },
     {
         "id": 3,
         "idCategoria": 3,
-        "nombre": "",
-        "Modelo": "",
+        "nombre": "Billetera Pink",
+        "modelo": "Billetera de gamuza color rosa",
         "precio": 3000,
         "stock": 15,
-        "img":""
+        "img":"billetera-rosa.jpg"
 
     },
     {
         "id":4,
-        "idCategoria":4,
-        "nombre":"",
-        "Modelo":"",
+        "idCategoria":1,
+        "nombre":"Lentes Grecia",
+        "modelo":"",
         "precio":2800,
         "stock":20,
-        "img":""
+        "img":"lentes-grecia.jpg"
 
     }
 

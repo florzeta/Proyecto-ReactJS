@@ -1,12 +1,9 @@
 import Item from "../Item/Item";
 
-//modifica array de datos
-
-
 const ItemList = ({productsList}) => {
     return (
         <>
-            {productsList.map(producto => <Item key={producto.id} producto= {producto}/>)}
+            {productsList.map(producto => <Item key={producto.id} prod = {producto}/>)}
         </>
     );
 }
