@@ -1,7 +1,6 @@
-const consultarBDD = async (ruta) => {
-    const response = await fetch(ruta)
+const consultarBDD =  async () => {
+    const response = await fetch('./json/productos.json')
     const productos = await response.json()
-    return productos    
+    return productos
 }
-
-export { consultarBDD}
+export {consultarBDD}

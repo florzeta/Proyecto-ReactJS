@@ -1,15 +1,12 @@
-import { Link } from "react-router-dom";
 
 const CartWidget = () => {
     return (
-        <>
-            <button className="btn btn-secundary cartWidget">
-                <Link to={'/Cart'} className="nav-link">
-                    <i className="fa fa-shopping-basket fa-lg logoCarrito" aria-hidden="true"></i>
-                    <span className="cantCarrito">0</span>
-                </Link>
-            </button>
-        </>
+        <ul className="navbar-nav me-auto">
+            <li className="nav-link">
+                <button className="btn btn-dark">Carrito</button>
+            </li>
+            <p>0</p>
+        </ul>
     );
 }
 
