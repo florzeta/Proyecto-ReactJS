@@ -1,12 +1,15 @@
 .cartWidget {
     position: relative;
-    left: 33%;
-    color: white;
+    left: 3%;
+    color: black;
 }
 
 .cantCarrito{
     position: relative;
     left: 13%;
+}
+.nav-item {
+    margin: 10px;
 }
 .cardProducto {
     width: 18rem;
@@ -28,4 +31,9 @@
 
 img {
     margin-top:3px;
+}
+
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
 }
