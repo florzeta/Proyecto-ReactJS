@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-const Checkout = () => {
+const Checkout = () => { 
 
     const datosFormulario = React.useRef()
     let navigate = useNavigate()
