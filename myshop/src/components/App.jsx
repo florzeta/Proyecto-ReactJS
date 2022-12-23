@@ -16,7 +16,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <DarkModeProvider>
-          <Navbar />
+          <Navbar/>
           <Routes>
             <Route path='/' element={<ItemListContainer />} />
             <Route path='/producto/:id' element={<ItemDetailContainer />} />
@@ -24,9 +24,7 @@ const App = () => {
             <Route path='/cart' element={<Cart />} />
             <Route path='/checkout' element={<Checkout />} />
           </Routes>
-
         </DarkModeProvider>
-
       </BrowserRouter>
     </>
   );

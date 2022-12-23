@@ -1,7 +1,12 @@
+
+
 .cartWidget {
     position: relative;
     color: black;
+    border-radius: 50rem;
+    margin-right: 2rem;
 }
+
 
 .cantCarrito{
     position: relative;
@@ -11,8 +16,8 @@
     margin: 10px;
 }
 .cardProducto {
-    width: 18rem;
-    margin: 5px;
+    width: 19rem;
+    margin: 2rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -31,10 +36,21 @@
 }
 
 img {
-    margin-top:3px;
+    margin-top: 0.8rem;
 }
 
 .itemDetail {
     max-width: 540px;
     margin-top: 20px;
+}
+
+.darkMode {
+    background-color:rgba(0, 0, 0, 0.63);
+    color:rgb(204, 187, 162);
+}
+
+.cardBodyDark {
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    
 }
