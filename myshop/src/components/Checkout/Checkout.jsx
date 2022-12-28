@@ -16,7 +16,7 @@ const Checkout = () => {
     }
 
     return (
-        <div className="container m-7">
+        <div className="container m-7" style={{marginTop: "20px"}}>
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>

@@ -35,12 +35,9 @@ export const CarritoProvider = (props) => {
     }
 
     const removeItem = (id) => {
-        /*const aux = [...carrito]
-        const indice = aux.findIndex(prod => prod.id === id)
-        setCarrito(aux.splice(indice,1))*/
         setCarrito(carrito.filter(prod => prod.id !== id))
     }
-
+ 
     const getItemQuantity = () => {
         return carrito.reduce((acum,prod) => acum += prod.cant, 0)
     }
