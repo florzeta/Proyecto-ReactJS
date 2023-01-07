@@ -1,8 +1,7 @@
 import BotonDarkMode from './BotonDarkMode/BotonDarkMode'
-import Categorias from '../Categorias/Categorias';
+import Categorias from './Categorias/Categorias';
 import CartWidget from '../CartWidget/CartWidget';
 
-//context
 import { useDarkModeContext } from '../../context/DarkModeContext';
 const Navbar = () => {
     const {darkMode} = useDarkModeContext()

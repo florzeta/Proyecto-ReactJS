@@ -14,15 +14,15 @@ const Cart = () => {
             </>
             :
             <div className="container cartContainer">
-                    {carrito.map((prod,indice) =>
-                    <div className={`card mb-3 ${darkMode ? 'text-white bg-secondary' : 'border-light'}`} key={indice} style={{maxWidth: '540px'}}>
+                    {carrito.map((prod) =>
+                    <div className={`card mb-3 ${darkMode ? 'text-white bg-secondary' : 'border-light'}`} key={prod.id} style={{maxWidth: '540px'}}>
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img src={`./img/${prod.img}`} className="img-fluid rounded-start" alt="producto" c />
+                                <img src={prod.img} className="img-fluid rounded-start" alt="producto"/>
                             </div>
                             <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">{`${prod.nombre} ${prod.marca}`}</h5>
+                            <h5 className="card-title">{prod.nombre}</h5>
                             <p className="card-text">Cantidad: {prod.cant}</p>
                             <p className="card-text">Precio unitario: $ {new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
                             <p className="card-text">Subtotal: $ {new Intl.NumberFormat('de-DE').format(prod.precio * prod.cant)}</p>
@@ -40,7 +40,6 @@ const Cart = () => {
                     <button className={`btn ${darkMode ? 'btn-secondary' : 'btn-primary'}`}><Link  className="nav-link" to={'/checkout'}>Finalizar Compra</Link></button>
                 </div>   
             </div>
-
             }
         </>
         

@@ -55,6 +55,7 @@ img {
     background-color: hsl(0, 4%, 95%);
     text-align: center;
     margin-bottom: 3px;
+    color: black;
 }
 
 .imgBody {
